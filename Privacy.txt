@@ -10,12 +10,15 @@ Privacy information is captured as follows:
 }
 Note that valid uses include:
 
+[ABCD]
 none: PII data is not handled at all by this system.
 storage: the system stores PII data at rest. An attacker with access to this system or its backups may have access to all PII records stored.
 process: the system handles PII data obtained from another system transiently. An attacker with access to the running system might be able to intercept only those PII records being processed.
 collect: the system is a collection point of PII data. This use case can be considered a sub-set of process in terms of what an attacker could do.
 Note that locations must be valid Alpha-3 ISO 3166 country codes (http://www.iso.org/iso/country_codes).
 
+If a system stores PII data it is mandatory to specify the storageLocation entry.
+If a system stores PII data it is mandatory to specify the storageLocation entry.
 If a system stores PII data it is mandatory to specify the storageLocation entry.
 
 If a system only process PII data, storeLocation and sourceLocation should not be specified in the document.
