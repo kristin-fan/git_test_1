@@ -1,6 +1,8 @@
 Health
 Note these definitions:
 
+C2
+
 green (circle) - meets expectations
 yellow (triangle) - partial meet for expectations
 red (cross) - does not meet expectations
