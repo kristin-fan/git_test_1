@@ -1,7 +1,9 @@
 Health
 Note these definitions:
 
+C2
 green (circle) - meets expectations (ABC)
+
 yellow (triangle) - partial meet for expectations
 red (cross) - does not meet expectations
 Health records must be ordered from most recent to oldest.
